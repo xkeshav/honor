@@ -1,0 +1,53 @@
+{
+  "name": "@xkeshav/honor",
+  "version": "0.0.1",
+  "displayName": "Template Repository",
+  "description": "This is a template repository for any new project in github; include basic files",
+  "private": false,
+  "publisher": "@xkeshav",
+  "homepage": "https://github.com/xkeshav/template/blob/main/README.md",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/xkeshav/template/issues",
+    "email": "xkeshav@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xkeshav/honor.git"
+  },
+  "keywords": [
+    "xkeshav",
+    "template",
+    "github"
+  ],
+  "author": {
+    "name": "Keshav Mohta",
+    "email": "xkeshav@gmail.com"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "http://xkeshav.com"
+  },
+  "contributors": [],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@xkeshav/day": "^1.4.0",
+    "hono": "^4.0.1",
+    "next": "^13.4.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
+    "@xkeshav/watch": "^1.2.0",
+    "tsx": "^3.12.2",
+    "typescript": "4.9.4"
+  }
+}
